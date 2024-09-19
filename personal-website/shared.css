@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  background: white;
+  height: 100vh;
+}
+
+main {
+  position: relative;
+  height: 100vh;
+}
+
+.header {
+  position: fixed;
+  top: 0%;
+  width: 100vw;
+  background: whitesmoke;
+  padding: 2rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 1.5rem;
+  min-height: 5rem;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.nav_button {
+  height: 3rem;
+  width: 3rem;
+  background: none;
+  margin: 0 1rem;
+  border: none;
+}
+
+.nav_button-bar {
+  display: block;
+  border-top: 4px solid black;
+  margin-bottom: 1rem;
+}
+
+.header div {
+  font-size: 1.6rem;
+  padding-left: 2%;
+  display: none;
+}
+
+.header ul {
+  list-style: none;
+  display: none;
+}
+
+.header li {
+  justify-content: space-between;
+  padding: 0 1.5rem;
+}
+
+.nav_item a:hover,
+.nav_item a:active {
+  font-size: 1.3rem;
+  text-decoration: underline;
+}
+
+.nav_home a:hover,
+.nav_home a:active {
+  text-decoration: underline;
+}
+
+.header a {
+  text-decoration: none;
+  color: rgb(88, 84, 84);
+}
+
+.backdrop {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 101;
+  display: none;
+}
+
+.open {
+  display: block;
+}
+
+.mobile_nav {
+  height: 100vh;
+  z-index: 102;
+  position: fixed;
+  width: 80%;
+  background: whitesmoke;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.open_nav {
+  display: flex;
+}
+
+.mobile_nav div {
+  margin: 2rem 0;
+}
+
+.mobile_nav a {
+  text-decoration: none;
+  color: rgb(88, 84, 84);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.mobile_nav a:hover,
+.mobile_nav a:active {
+  text-decoration: underline;
+  font-size: 2.2rem;
+}
+
+.coming-soon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 5rem;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 45rem) {
+  .nav_button {
+    display: none;
+  }
+
+  .header ul {
+    display: flex;
+  }
+
+  .header div {
+    font-size: 1.6rem;
+    padding-left: 2%;
+    display: block;
+  }
+
+  .open {
+    display: none;
+  }
+
+  .open_nav {
+    display: none;
+  }
+}

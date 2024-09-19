@@ -1,0 +1,218 @@
+.resume {
+  padding: 0 2rem;
+  padding-top: 8rem;
+  text-align: center;
+  width: 100%;
+}
+
+.page_header {
+  font-size: 3rem;
+  margin-top: 3rem;
+  color: rgb(88, 84, 84);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.resume_section {
+  margin: 2rem 0;
+}
+
+.resume_section-header {
+  color: rgb(88, 84, 84);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.resume_section-school,
+.resume_experience {
+  margin-bottom: 1.5rem;
+  position: relative;
+  min-height: 150px;
+}
+
+.resume_school-name,
+.resume_experience-name {
+  font-size: 1.4rem;
+  padding: 0.1rem 0;
+}
+
+.resume_school-major,
+.resume_experience-position {
+  color: rgb(60, 57, 57);
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding-bottom: 0.2rem;
+}
+
+.resume_school-grad,
+.resume_school-gpa,
+.format,
+.resume_experience-time,
+.resume_experience-location {
+  display: inline-block;
+  padding-right: 0.7rem;
+  margin-bottom: 0.4rem;
+  font-weight: 700;
+  color: rgb(60, 57, 57);
+}
+
+.resume_experience-info {
+  padding-left: 1rem;
+}
+
+.resume_school-activites,
+.resume_school-coursework {
+  width: 100%;
+  margin: 0.1rem;
+}
+
+.resume_experience-info_li {
+  width: 100%;
+  margin: 0.1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0.2rem;
+  font-size: 1rem;
+}
+
+.resume_school-picture,
+.resume_experience-pictrue {
+  border: 3px solid black;
+  border-radius: 100px;
+  width: 9rem;
+  height: 9rem;
+  position: absolute;
+  top: 0%;
+  right: 3%;
+  display: none;
+}
+
+.resume_school-neu {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUaB4QZg6G1s1pCCaYGoer0oVvVZfSiy88w&sz")
+    center/cover;
+}
+
+.resume_school-ward {
+  background: url("https://ih1.redbubble.net/image.373469286.5600/st,small,507x507-pad,600x600,f8f8f8.jpg")
+    center/cover;
+}
+
+.resume_experience-uscg {
+  background: url("https://www.atlanticarea.uscg.mil/portals/7/First%20District/Sector-New-York/Sector-New-York-UNIT-SEAL.jpg")
+    center/cover;
+}
+
+.resume_experience-knack {
+  background: url("https://play-lh.googleusercontent.com/Pu7aKjIJm3Sq-PiKKhtcBJ45oG3CHDJu6NcYUbWS9MsqjK3Y_-XMCF_4tBx80_8l5cDG")
+    center/cover;
+}
+
+.resume_experience-shop {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJSlls9KUOJX9Hoq9a4n4IbStsdwr5vzq4tQ&s")
+    center/cover;
+}
+
+.resume_frameworks {
+  list-style: none;
+}
+
+.resume_frameworks-li {
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+}
+
+.resume_frameworks-photo {
+  border: rgb(88, 84, 84) solid 3px;
+  height: 8rem;
+  width: 8rem;
+  border-radius: 100px;
+}
+
+.resume_frameworks-name {
+  color: rgb(60, 57, 57);
+  font-weight: 500;
+  font-size: 1.1rem;
+  padding-top: 0.8rem;
+}
+
+.java {
+  background: url("https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png")
+    center/cover;
+}
+
+.python {
+  background: url("https://i.pinimg.com/originals/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.png")
+    center/cover;
+}
+
+.react {
+  background: url("https://miro.medium.com/v2/1*K0a7xINk0RM5gfXGSN68cw.png")
+    center/cover;
+}
+
+.javascript {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ekr0y50dzU1IBDEKnrOqBaRf-LJf0XG_rRkqEl_i0YSuhaRZiXbmi0tizCor_cSqWCQ&usqp=CAU")
+    center/contain;
+}
+
+.cplusplus {
+  background: url("https://pluralsight.imgix.net/paths/path-icons/c-plus-plus-93c7ddd5cc.png")
+    center/cover;
+  background-size: 115%;
+}
+
+.csharp {
+  background: url("https://www.egovaleo.it/wp-content/uploads/2023/10/c-sharp.png")
+    center/cover;
+}
+
+.html {
+  background: url("https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small/html5-emblem-orange-shield-and-white-text-vector.jpg")
+    center/cover;
+}
+
+.css {
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfXdKH7SrCVpLx-h0j9VSLf7LQxwWgptJNw&s")
+    center/cover;
+  background-size: 115%;
+}
+
+.sql {
+  background: url("https://substack-post-media.s3.amazonaws.com/public/images/2b353a39-0673-4abe-9b3d-431a4e5fc46b_600x315.png")
+    center/cover no-repeat;
+  background-size: 140%;
+}
+
+.systemverilog {
+  background: url("https://eirikpre.gallerycdn.vsassets.io/extensions/eirikpre/systemverilog/0.13.9/1705538304159/Microsoft.VisualStudio.Services.Icons.Default")
+    center/cover no-repeat;
+  background-size: 105%;
+}
+
+@media (min-width: 45rem) {
+  .resume {
+    text-align: left;
+    padding: 0 5rem;
+    padding-top: 7rem;
+  }
+
+  .page_header {
+    text-align: left;
+  }
+
+  .resume_school-activites,
+  .resume_school-coursework {
+    width: 75%;
+  }
+
+  .resume_experience-info_li {
+    width: 82%;
+  }
+}
+
+@media (min-width: 62rem) {
+  .resume_school-picture,
+  .resume_experience-pictrue {
+    display: block;
+  }
+}

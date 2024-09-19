@@ -1,0 +1,108 @@
+main {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+
+.main_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.main_info-profile_pic {
+  background: url(./photos/profile_pic.jpeg) center/cover;
+  height: 15rem;
+  width: 15rem;
+  border-radius: 200px;
+  margin-top: 5rem;
+}
+
+.main_info-name {
+  margin: 0.5rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.main_info-blurb {
+  text-align: center;
+  font-weight: 700;
+  color: rgb(88, 84, 84);
+  margin: 0.2rem;
+}
+
+.main_info-links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_info-links li {
+  height: 2rem;
+  width: 2rem;
+  margin: 1rem;
+}
+
+.main_info-links__linkedin {
+  background: url("https://i.pinimg.com/564x/6b/ab/30/6bab3017350ca04c6fa05569672bd31e.jpg")
+    center/cover;
+  border-radius: 5px;
+}
+
+.main_info-links__github {
+  background: url("https://banner2.cleanpng.com/20180711/iqy/aawpwnuou.webp")
+    center/cover;
+}
+
+.main_info-about {
+  width: 60vw;
+  color: rgb(67, 64, 64);
+  text-align: center;
+}
+
+.main_info-about h1 {
+  font-size: 2rem;
+}
+
+.main_info-about p {
+  font-size: 1.1rem;
+}
+
+@media (min-width: 54rem) {
+  main {
+    flex-direction: row;
+  }
+  .main_info {
+    width: 25vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .main_info-about {
+    text-align: left;
+    padding-left: 3rem;
+  }
+  .main_info-about p {
+    font-size: 1.2rem;
+  }
+  .main_info-about h1 {
+    font-size: 2.4rem;
+  }
+}
+
+@media (min-width: 67rem) {
+  .main_info-about p {
+    font-size: 1.4rem;
+  }
+  .main_info-about h1 {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,170 @@
+main {
+  margin: 0 1rem;
+  padding-top: 8rem;
+  width: calc(100% - 2rem);
+}
+
+.travel_header {
+  font-size: 2.8rem;
+  margin-top: 3rem;
+  color: rgb(88, 84, 84);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.travel {
+  margin: 4rem 0;
+  position: relative;
+  margin-bottom: 10rem;
+}
+
+.travel_destination {
+  width: 100%;
+  height: 45vh;
+  position: relative;
+}
+
+.nyc {
+  background: url(../photos/IMG_1802.jpg) top 45% left 0% / cover no-repeat;
+}
+
+.nh {
+  background: url(../photos/IMG_2385.jpg) top 40% left 0% / cover no-repeat;
+}
+
+.vermont {
+  background: url(../photos/IMG_0514.jpg) top 90% left 0% / cover no-repeat;
+}
+
+.newport {
+  background: url(../photos/IMG_1928.jpg) top 50% left 0% / cover no-repeat;
+}
+
+.travel_destination-name {
+  color: whitesmoke;
+  font-size: 2rem;
+  position: absolute;
+  top: 5%;
+  text-align: center;
+  width: 100%;
+}
+
+.travel_destination-time {
+  color: rgba(236, 229, 229, 0.5);
+  font-size: 1.6rem;
+  position: absolute;
+  top: 17%;
+  text-align: center;
+  width: 100%;
+}
+
+.darker {
+  color: rgba(146, 137, 137, 0.5);
+}
+
+.travel_destination-photos {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 45vh;
+}
+
+.travel_destination-photo-left {
+  display: inline-block;
+  width: 100%;
+  height: 45vh;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 0;
+}
+
+.travel_destination-photo-right {
+  display: none;
+  width: 50%;
+  height: 45vh;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+}
+
+.travel_destination-photo1 {
+  background: url(../photos/IMG_0554.JPG) center/cover no-repeat;
+}
+
+.travel_destination-photo2 {
+  background: url(../photos/IMG_3701.jpg) top 35% left 0% / cover no-repeat;
+}
+
+.travel_destination-photo3 {
+  background: url(../photos/IMG_1632.jpg) top 70% left 0% / cover no-repeat;
+}
+
+.travel_destination-photo4 {
+  background: url(../photos/20240615_190159_B7D2B1.jpeg) top 40% left 0% / cover
+    no-repeat;
+}
+
+.travel_destination-photo5 {
+  background: url(../photos/20240302_184001_CAD6C5.jpeg) top 55% left 0% / cover
+    no-repeat;
+}
+
+.travel_destination-photo6 {
+  background: url(../photos/20240303_125601_C428CB.jpeg) top 55% left 0% / cover
+    no-repeat;
+}
+
+.travel_destination-photo7 {
+  background: url(../photos/IMG_1921.jpg) top 70% left 0% / cover no-repeat;
+}
+
+.travel_destination-photo8 {
+  background: url(../photos/100_1095.jpg) top 60% left 0% / cover no-repeat;
+}
+
+@media (min-width: 36rem) {
+  .travel_header {
+    padding: 0 4rem;
+    font-size: 4rem;
+  }
+  .travel_destination-name {
+    font-size: 2.6rem;
+    left: 2rem;
+    text-align: left;
+    width: auto;
+  }
+
+  .travel_destination-time {
+    font-size: 1.8rem;
+    left: 2rem;
+    top: 20%;
+    text-align: left;
+    width: auto;
+  }
+}
+
+@media (min-width: 52rem) {
+  .travel_destination-name {
+    font-size: 2.6rem;
+    left: 5rem;
+  }
+
+  .travel_destination-time {
+    text-align: right;
+    font-size: 2.6rem;
+    right: 5rem;
+    top: 5%;
+  }
+}
+
+@media (min-width: 55rem) {
+  .travel_destination-photo-right {
+    display: inline-block;
+  }
+  .travel_destination-photo-left {
+    width: 50%;
+  }
+}
