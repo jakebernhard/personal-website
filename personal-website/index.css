@@ -28,13 +28,14 @@ main {
 .main_info-name {
   margin: 0.5rem;
   font-size: 2rem;
+  color: #F5F5F5;
   text-align: center;
 }
 
 .main_info-blurb {
   text-align: center;
   font-weight: 700;
-  color: rgb(88, 84, 84);
+  color: #F5F5F5;
   margin: 0.2rem;
 }
 
@@ -56,16 +57,19 @@ main {
   background: url("https://i.pinimg.com/564x/6b/ab/30/6bab3017350ca04c6fa05569672bd31e.jpg")
     center/cover;
   border-radius: 5px;
+  filter: invert(1);
 }
 
 .main_info-links__github {
   background: url("https://banner2.cleanpng.com/20180711/iqy/aawpwnuou.webp")
     center/cover;
+  border-radius: 5px;
+  filter: invert(1);
 }
 
 .main_info-about {
   width: 60vw;
-  color: rgb(67, 64, 64);
+  color: #F5F5F5;
   text-align: center;
 }
 

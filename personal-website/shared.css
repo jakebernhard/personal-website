@@ -10,7 +10,7 @@ html {
 }
 
 body {
-  background: white;
+  background: #1E1E2E;
   height: 100vh;
 }
 
@@ -23,7 +23,7 @@ main {
   position: fixed;
   top: 0%;
   width: 100vw;
-  background: whitesmoke;
+  background: #1A1B26;
   padding: 2rem 0rem;
   font-size: 1.2rem;
   font-weight: 700;
@@ -79,7 +79,7 @@ main {
 
 .header a {
   text-decoration: none;
-  color: rgb(88, 84, 84);
+  color: #F5F5F5;
 }
 
 .backdrop {
@@ -130,6 +130,7 @@ main {
 
 .coming-soon {
   position: absolute;
+  color: #F5F5F5;
   top: 50%;
   left: 50%;
   font-size: 5rem;

@@ -2,13 +2,13 @@
   padding: 0 2rem;
   padding-top: 8rem;
   text-align: center;
+  color: #F5F5F5;
   width: 100%;
 }
 
 .page_header {
   font-size: 3rem;
   margin-top: 3rem;
-  color: rgb(88, 84, 84);
   margin-bottom: 2rem;
   text-align: center;
 }
@@ -18,7 +18,6 @@
 }
 
 .resume_section-header {
-  color: rgb(88, 84, 84);
   font-size: 2rem;
   margin-bottom: 1rem;
 }
@@ -34,11 +33,12 @@
 .resume_experience-name {
   font-size: 1.4rem;
   padding: 0.1rem 0;
+  color: #F5F5F5;
 }
 
 .resume_school-major,
 .resume_experience-position {
-  color: rgb(60, 57, 57);
+  color: #C0C0C0;
   font-weight: 700;
   font-size: 1.1rem;
   padding-bottom: 0.2rem;
@@ -53,7 +53,7 @@
   padding-right: 0.7rem;
   margin-bottom: 0.4rem;
   font-weight: 700;
-  color: rgb(60, 57, 57);
+  color: #C0C0C0;
 }
 
 .resume_experience-info {
@@ -76,7 +76,7 @@
 
 .resume_school-picture,
 .resume_experience-pictrue {
-  border: 3px solid black;
+  border: 3px solid #C0C0C0;
   border-radius: 100px;
   width: 9rem;
   height: 9rem;
@@ -91,8 +91,8 @@
     center/cover;
 }
 
-.resume_school-ward {
-  background: url("https://ih1.redbubble.net/image.373469286.5600/st,small,507x507-pad,600x600,f8f8f8.jpg")
+.resume_experience-plcn {
+  background: url("https://play-lh.googleusercontent.com/792cOZmgyvWNQrXUGcVffVsm6znneWukthqxF7U2kzVbEZNFLkc8ObrYlGk66ZwojeST")
     center/cover;
 }
 
@@ -106,10 +106,6 @@
     center/cover;
 }
 
-.resume_experience-shop {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRJSlls9KUOJX9Hoq9a4n4IbStsdwr5vzq4tQ&s")
-    center/cover;
-}
 
 .resume_frameworks {
   list-style: none;
@@ -122,14 +118,13 @@
 }
 
 .resume_frameworks-photo {
-  border: rgb(88, 84, 84) solid 3px;
+  border: #F5F5F5 solid 3px;
   height: 8rem;
   width: 8rem;
   border-radius: 100px;
 }
 
 .resume_frameworks-name {
-  color: rgb(60, 57, 57);
   font-weight: 500;
   font-size: 1.1rem;
   padding-top: 0.8rem;
