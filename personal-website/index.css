@@ -18,7 +18,7 @@ main {
 }
 
 .main_info-profile_pic {
-  background: url(./photos/profile_pic.jpeg) center/cover;
+  background: url(./photos/profile_pic.jpg) center/cover;
   height: 15rem;
   width: 15rem;
   border-radius: 200px;
