@@ -46,7 +46,7 @@ main {
 
 .nav_button-bar {
   display: block;
-  border-top: 4px solid black;
+  border-top: 4px solid #F5F5F5;
   margin-bottom: 1rem;
 }
 
@@ -100,7 +100,7 @@ main {
   z-index: 102;
   position: fixed;
   width: 80%;
-  background: whitesmoke;
+  background: #1A1B26;
   display: none;
   flex-direction: column;
   align-items: center;
@@ -117,7 +117,7 @@ main {
 
 .mobile_nav a {
   text-decoration: none;
-  color: rgb(88, 84, 84);
+  color: #F5F5F5;
   font-size: 2rem;
   font-weight: 700;
 }
