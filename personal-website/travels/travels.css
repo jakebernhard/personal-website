@@ -60,16 +60,12 @@ main {
 }
 
 .travel_destination-time {
-  color: rgba(236, 229, 229, 0.5);
+  color: whitesmoke;
   font-size: 1.6rem;
   position: absolute;
   top: 17%;
   text-align: center;
   width: 100%;
-}
-
-.darker {
-  color: rgba(146, 137, 137, 0.5);
 }
 
 .travel_destination-photos {
@@ -168,29 +164,23 @@ main {
     font-size: 2.6rem;
     left: 2rem;
     text-align: left;
-    width: auto;
   }
 
   .travel_destination-time {
-    font-size: 1.8rem;
+    font-size: 1.4rem;
     left: 2rem;
-    top: 20%;
     text-align: left;
-    width: auto;
+    padding-top: 0.6rem;
   }
 }
 
 @media (min-width: 52rem) {
   .travel_destination-name {
     font-size: 2.6rem;
-    left: 5rem;
   }
 
   .travel_destination-time {
-    text-align: right;
-    font-size: 2.6rem;
-    right: 5rem;
-    top: 5%;
+    font-size: 1.4rem;
   }
 }
 

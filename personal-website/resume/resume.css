@@ -115,73 +115,119 @@
   display: inline-block;
   padding: 1rem;
   text-align: center;
+  vertical-align: top;
 }
 
 .resume_frameworks-photo {
   border: #F5F5F5 solid 3px;
-  height: 8rem;
-  width: 8rem;
+  height: 5.5rem;
+  width: 5.5rem;
   border-radius: 100px;
 }
 
 .resume_frameworks-name {
   font-weight: 500;
-  font-size: 1.1rem;
+  width: 5.5rem;
+  font-size: 1rem;
   padding-top: 0.8rem;
 }
 
+
+.kotlin {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/kotlin/kotlin-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
+}
+
+
 .java {
-  background: url("https://download.logo.wine/logo/Java_(programming_language)/Java_(programming_language)-Logo.wine.png")
-    center/cover;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/java/java-original.svg")
+    center/cover no-repeat;
+  background-size: 70%;
 }
 
 .python {
-  background: url("https://i.pinimg.com/originals/82/a2/18/82a2188c985ce75402ae44fc43fe7e5e.png")
-    center/cover;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
 }
 
 .react {
-  background: url("https://miro.medium.com/v2/1*K0a7xINk0RM5gfXGSN68cw.png")
-    center/cover;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
 }
 
 .javascript {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Ekr0y50dzU1IBDEKnrOqBaRf-LJf0XG_rRkqEl_i0YSuhaRZiXbmi0tizCor_cSqWCQ&usqp=CAU")
-    center/contain;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg")
+    center/cover no-repeat;
+  background-size: 60%;
+}
+
+.c {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg")
+    center/cover no-repeat;
+    background-size: 70%;
 }
 
 .cplusplus {
-  background: url("https://pluralsight.imgix.net/paths/path-icons/c-plus-plus-93c7ddd5cc.png")
-    center/cover;
-  background-size: 115%;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
 }
 
 .csharp {
-  background: url("https://www.egovaleo.it/wp-content/uploads/2023/10/c-sharp.png")
-    center/cover;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
 }
 
 .html {
-  background: url("https://static.vecteezy.com/system/resources/thumbnails/001/416/705/small/html5-emblem-orange-shield-and-white-text-vector.jpg")
-    center/cover;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
 }
 
 .css {
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyfXdKH7SrCVpLx-h0j9VSLf7LQxwWgptJNw&s")
-    center/cover;
-  background-size: 115%;
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
 }
 
-.sql {
-  background: url("https://substack-post-media.s3.amazonaws.com/public/images/2b353a39-0673-4abe-9b3d-431a4e5fc46b_600x315.png")
+.postgres {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg")
     center/cover no-repeat;
-  background-size: 140%;
+  background-size: 65%;
 }
 
-.systemverilog {
-  background: url("https://eirikpre.gallerycdn.vsassets.io/extensions/eirikpre/systemverilog/0.13.9/1705538304159/Microsoft.VisualStudio.Services.Icons.Default")
+.graphql {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg")
     center/cover no-repeat;
-  background-size: 105%;
+  background-size: 65%;
+}
+
+.cassandra {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
+}
+
+.mongo {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
+}
+
+.clickhouse {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clickhouse/clickhouse-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
+}
+
+.couchbase {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/couchbase/couchbase-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
 }
 
 @media (min-width: 45rem) {
