@@ -6,19 +6,12 @@
   width: 100%;
 }
 
-.page_header {
-  font-size: 3rem;
-  margin-top: 3rem;
-  margin-bottom: 2rem;
-  text-align: center;
-}
-
 .resume_section {
   margin: 2rem 0;
 }
 
 .resume_section-header {
-  font-size: 2rem;
+  font-size: 2.4rem;
   margin-bottom: 1rem;
 }
 
@@ -56,14 +49,27 @@
   color: #C0C0C0;
 }
 
+.dot {
+  position: absolute;
+  left: -2.2rem;
+  transform: translateX(-50%);
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  background: #C0C0C0;
+  visibility: hidden;
+}
+
 .resume_experience-info {
   padding-left: 1rem;
+  font-weight: bold;
 }
 
 .resume_school-activites,
 .resume_school-coursework {
   width: 100%;
   margin: 0.1rem;
+  font-weight: bold;
 }
 
 .resume_experience-info_li {
@@ -237,17 +243,24 @@
     padding-top: 7rem;
   }
 
-  .page_header {
-    text-align: left;
-  }
-
   .resume_school-activites,
   .resume_school-coursework {
     width: 75%;
   }
 
   .resume_experience-info_li {
+    padding-bottom: 0.4rem;
     width: 82%;
+  }
+
+  .resume_experiences {
+    border-left: .4rem solid #C0C0C0;
+    padding-left: 2rem;
+    margin-left: 0.5rem;
+  }
+
+  .dot {
+    visibility: visible;
   }
 }
 
@@ -257,3 +270,5 @@
     display: block;
   }
 }
+
+
