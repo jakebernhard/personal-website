@@ -81,6 +81,16 @@ main {
     background-size: 80%;
 }
 
+@media (max-width: 480px) {
+    main {
+        margin: 0;
+        width: 100%;
+    }
+    .project {
+        margin: 1rem 0;
+    }
+}
+
 /* .project_summary {
     list-style: none;
     margin-top: 1rem;
