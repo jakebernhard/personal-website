@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="projects.css" />
+    <link rel="stylesheet" href="../resume/resume.css">
     <link rel="stylesheet" href="../shared.css" />
   </head>
   <body>
@@ -30,10 +31,8 @@
       <nav>
         <ul>
           <li class="nav_item"><a href="../resume/index.html">Resume</a></li>
+          <li class="nav_item"><a href="./index.html">Projects</a></li>
           <li class="nav_item"><a href="../travels/index.html">Travels</a></li>
-          <li class="nav_item">
-            <a href="./index.html">Projects</a>
-          </li>
         </ul>
       </nav>
     </header>
@@ -43,14 +42,122 @@
         <a href="../resume/index.html">Resume</a>
       </div>
       <div class="mobile_nav-item">
-        <a href="../travels/index.html">Travels</a>
+        <a href="./index.html">Projects</a>
       </div>
       <div class="mobile_nav-item">
-        <a href="./index.html">Projects</a>
+        <a href="../travels/index.html">Travels</a>
       </div>
     </nav>
     <div class="backdrop"></div>
-    <main><h1 class="coming-soon">Coming Soon</h1></main>
+    <main>
+      <div class="projects">
+        <div class="project">
+          <img src="photos/rag_result.jpg" class="project_photo"/>
+          <div class="project_content">
+            <h1 class="project_title">RAG Vector DB Benchmarking</h1>
+            <p class="project_synopsis">Complete AI pipeline connected to 3 vector databases, bencharking end-to-end preformance</p>
+            <ul class="project_frameworks">
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo python"></div>
+              </li>
+              <li class="project_frameworks-li for-project">
+                <div class="project_frameworks-photo postgres"></div>
+              </li>
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo cassandra"></div>
+              </li>
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo clickhouse"></div>
+              </li>
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo docker"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <img src="photos/nba_all_star.jpg" class="project_photo"/>
+          <div class="project_content">
+            <h1 class="project_title">NBA All-Star Predictor</h1>
+            <p class="project_synopsis">Machine learning project analyzing player statistics to predict All-Star status</p>
+            <ul class="project_frameworks">
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo python"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="project">
+          <img src="photos/planner_system.jpg" class="project_photo"/>
+          <div class="project_content">
+            <h1 class="project_title">Planner System</h1>
+            <p class="project_synopsis">Interactive Java planner with real-time XML file integration and scheduling interface</p>
+            <ul class="project_frameworks">
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo java"></div>
+              </li>
+              <li class="project_frameworks-li">
+                <div class="project_frameworks-photo xml"></div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </main>
     <script src="../shared.js"></script>
   </body>
 </html>
+
+
+<!-- <ul class="project_summary">
+  <li class="project_summary_li"> 
+    Developed a planner in Java using the model-view-controller pattern that allows
+    clients to create or modify multiple schedules.
+  </li>
+  <li class="project_summary_li">
+    Leveraged Java's I/O, XML parsing, and DOM manipulation packages to 
+    create writer and reader classes that implement the functionality of 
+    uploading XML files to the planner and saving changes made during program
+    runtime back to files in real-time.
+  </li>
+  <li class="project_summary_li">
+    Extended Java's Swing and AWT packages to create a fully interactive
+    GUI that presents the user's schedule.
+  </li>
+</ul> -->
+<!-- <ul class="project_summary">
+  <li class="project_summary_li"> 
+    Developed a Random Forest Classifier utilizing Python (Pandas, 
+    Scikit-learn) and applying machine learning principles, achieving
+    a 92% accuracy in predicting NBA All-Star status from the last
+    10 seasons of player statistics.
+  </li>
+  <li class="project_summary_li">
+    Trained separate models for pre-/post-COVID seasons, identifying
+    a 6% improvement in model performance post-COVID.
+  </li>
+  <li class="project_summary_li">
+    Performed feature importance analysis on distinct front-court and 
+    back-court player models, identifying position-specific differences 
+    in the key statistics that significantly influence a player's 
+    All-Star status
+  </li>
+</ul> -->
+<!-- <ul class="project_summary">
+  <li class="project_summary_li"> 
+    Implemented a Retrieval-Augmented Generation (RAG) pipeline with an 
+    8-developer team, benchmarking vector database performance.
+  </li>
+  <li class="project_summary_li">
+    Integrated Anthropic's Claude with LangChain, enabling scalable 
+    batch capabilities for 3 vector databases with extension support.
+  </li>
+  <li class="project_summary_li">
+    Dockerized all components of the pipeline, decreasing onboarding time 
+    for new researchers and ensuring reproducible results.
+  </li>
+  <li class="project_summary_li">
+    Measured a 44% reduction in end-to-end processing time for Clickhouse and 
+    a 10% for PostgreSQL in comparison to Cassandra.
+  </li>
+</ul> -->

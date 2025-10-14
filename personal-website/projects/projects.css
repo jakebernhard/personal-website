@@ -1,0 +1,108 @@
+main {
+    margin: 0 1rem;
+    padding-top: 8rem;
+    width: calc(100% - 2rem);
+    color: whitesmoke;
+  }
+
+
+.projects {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #1A1B26;
+    border-radius: 8px;
+    margin: 1rem;
+    width: 30%;
+    padding: 0.8rem;
+    position: relative;
+    min-width: 25rem;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.project_photo {
+    width: 100%;
+    height: 12rem;
+    border-radius: 8px;
+}
+
+.project_content {
+    text-align: center;
+    padding-top: 0.4rem;
+    padding-bottom: 4rem;
+}
+
+.project_title {
+    font-size: 1.4rem;
+}
+
+.project_synopsis {
+    padding: 0.6rem 0;
+}
+  
+.project_frameworks {
+    list-style: none;
+    position: absolute;
+    bottom: 0.6rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-wrap: nowrap;
+}
+  
+.project_frameworks-li {
+    display: inline-block;
+    padding: 0.4rem;
+    text-align: center;
+    vertical-align: top;
+}
+  
+.project_frameworks-photo {
+    border: #F5F5F5 solid 2px;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 100px;
+}
+
+.docker {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/docker/docker-original.svg")
+      center/cover no-repeat;
+}
+
+.xml {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xml/xml-original.svg")
+      center/cover no-repeat;
+    background-size: 80%;
+}
+
+/* .project_summary {
+    list-style: none;
+    margin-top: 1rem;
+}
+
+.project_summary_li {
+    padding-bottom: 0.2rem;
+}
+
+.project_nav {
+    margin-top: 1rem;
+    background-color: #1A1B26;
+    color: whitesmoke;
+    font-weight: bolder;
+    border: 2px solid whitesmoke;
+    padding: 0.4rem;
+    border-radius: 9999px;
+}
+
+.project_nav:hover {
+    transform: scale(1.02);
+
+} */
+
