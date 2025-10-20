@@ -24,10 +24,8 @@ main {
   top: 0%;
   width: 100vw;
   background: rgba(26,27,34,0.7);
-  padding: 2rem 0rem;
   font-size: 1.2rem;
   font-weight: 700;
-  padding-bottom: 1.5rem;
   min-height: 5rem;
   z-index: 100;
   display: flex;
@@ -67,14 +65,12 @@ main {
 }
 
 .nav_item a:hover,
-.nav_item a:active {
-  font-size: 1.3rem;
-  text-decoration: underline;
-}
-
+.nav_item a:active,
 .nav_home a:hover,
 .nav_home a:active {
-  text-decoration: underline;
+  color: #FFFFFF;
+  text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
+  transition: all 0.25s ease-in-out;
 }
 
 .header a {
@@ -146,14 +142,13 @@ main {
   height: 100%;
   object-fit: cover;
   z-index: -2;
-  filter: blur(4px);
 }
 
 .overlay {
   position: fixed;
   z-index: -1;
   inset: 0;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.55);
 }
 
 @media (min-width: 45rem) {
