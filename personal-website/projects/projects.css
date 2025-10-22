@@ -84,30 +84,22 @@ main {
 
 .project_nav {
     position: absolute;
-    bottom: 0.6rem;
+    font-weight: bold;
+    bottom: 1.2rem;
     left: 0.8rem;
     border-radius: 9999px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #F5F5F5;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
 }
 
 .project_nav:hover {
-    transform: scale(1.02);
-}
-
-.github {
-    width: 2rem;
-    height: 2rem;
-    display: inline-block;
-    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg")
-    center/cover no-repeat;
-    filter: invert(1);
-}
-
-.github:hover {
+    transform: translateX(-50%) scale(1.02);
     color: #FFFFFF;
-    filter: invert(1) drop-shadow(0 0 5px rgba(255, 255, 255, 0.7));
-    transition: all 0.25s ease-in-out;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.7);
 }
-
 
 @media (max-width: 480px) {
     main {

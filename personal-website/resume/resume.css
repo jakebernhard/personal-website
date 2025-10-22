@@ -164,6 +164,12 @@
   background-size: 80%;
 }
 
+.node {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg")
+    center/cover no-repeat;
+  background-size: 75%;
+}
+
 .javascript {
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg")
     center/cover no-repeat;
@@ -227,7 +233,7 @@
 .clickhouse {
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/clickhouse/clickhouse-original.svg")
     center/cover no-repeat;
-  background-size: 65%;
+  background-size: 60%;
 }
 
 .couchbase {
@@ -270,5 +276,3 @@
     display: block;
   }
 }
-
-
