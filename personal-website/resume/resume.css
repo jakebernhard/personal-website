@@ -206,14 +206,15 @@
   background-size: 65%;
 }
 
-.postgres {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg")
+.graphql {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apollographql/apollographql-original.svg")
     center/cover no-repeat;
-  background-size: 65%;
+  background-size: 70%;
+  filter: brightness(0) invert(1)
 }
 
-.graphql {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/graphql/graphql-plain.svg")
+.postgres {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg")
     center/cover no-repeat;
   background-size: 65%;
 }
