@@ -18,7 +18,7 @@ main {
 }
 
 .main_info-profile_pic {
-  background: url(https://2ljblf700eura7e6.public.blob.vercel-storage.com/profile_pic.jpg) center/cover;
+  background: url(https://res.cloudinary.com/de3kqcgay/image/upload/v1761785269/profile_pic_wn3edr.webp) center/cover;
   height: 15rem;
   width: 15rem;
   border-radius: 200px;
