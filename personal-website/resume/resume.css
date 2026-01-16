@@ -158,40 +158,10 @@
   background-size: 80%;
 }
 
-.react {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg")
-    center/cover no-repeat;
-  background-size: 80%;
-}
-
-.node {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg")
-    center/cover no-repeat;
-  background-size: 75%;
-}
-
 .javascript {
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg")
     center/cover no-repeat;
   background-size: 60%;
-}
-
-.c {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg")
-    center/cover no-repeat;
-    background-size: 70%;
-}
-
-.cplusplus {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg")
-    center/cover no-repeat;
-  background-size: 80%;
-}
-
-.csharp {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg")
-    center/cover no-repeat;
-  background-size: 80%;
 }
 
 .html {
@@ -206,11 +176,66 @@
   background-size: 65%;
 }
 
+.cplusplus {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
+}
+
+.c {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/c/c-original.svg")
+    center/cover no-repeat;
+    background-size: 70%;
+}
+
+.csharp {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/csharp/csharp-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
+}
+
+.android {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/android/android-original.svg")
+  center/cover no-repeat;
+  background-size: 80%;
+}
+
+.jetpackcompose {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jetpackcompose/jetpackcompose-original.svg")
+  center/cover no-repeat;
+  background-size: 80%;
+}
+
+.react {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original.svg")
+    center/cover no-repeat;
+  background-size: 80%;
+}
+
+.node {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original.svg")
+    center/cover no-repeat;
+  background-size: 75%;
+}
+
 .graphql {
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/apollographql/apollographql-original.svg")
     center/cover no-repeat;
   background-size: 70%;
   filter: brightness(0) invert(1)
+}
+
+.numpy {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/numpy/numpy-original.svg")
+  center/cover no-repeat;
+  background-size: 75%;
+}
+
+.pandas {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg")
+  center/cover no-repeat;
+  background-size: 75%;
+  filter: brightness(2)
 }
 
 .postgres {
@@ -219,16 +244,16 @@
   background-size: 65%;
 }
 
-.cassandra {
-  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg")
-    center/cover no-repeat;
-  background-size: 85%;
-}
-
 .mongo {
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg")
     center/cover no-repeat;
   background-size: 65%;
+}
+
+.cassandra {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cassandra/cassandra-original.svg")
+    center/cover no-repeat;
+  background-size: 85%;
 }
 
 .clickhouse {
