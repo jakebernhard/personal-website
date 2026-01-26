@@ -66,10 +66,12 @@
 }
 
 .resume_school-activites,
-.resume_school-coursework {
+.resume_school-coursework,
+.resume_school-study_abroad {
   width: 100%;
   margin: 0.1rem;
   font-weight: bold;
+  padding-bottom: 0.4rem;
 }
 
 .resume_experience-info_li {
@@ -276,7 +278,8 @@
   }
 
   .resume_school-activites,
-  .resume_school-coursework {
+  .resume_school-coursework,
+  .resume_school-study_abroad {
     width: 75%;
   }
 
