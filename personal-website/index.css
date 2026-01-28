@@ -61,7 +61,7 @@ main {
 }
 
 .main_info-links__github {
-  background: url("https://banner2.cleanpng.com/20180711/iqy/aawpwnuou.webp")
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg")
     center/cover;
   border-radius: 5px;
   filter: invert(1);
