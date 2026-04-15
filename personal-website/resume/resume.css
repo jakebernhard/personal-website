@@ -166,6 +166,12 @@
   background-size: 60%;
 }
 
+.typescript {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg")
+    center/cover no-repeat;
+  background-size: 60%;
+}
+
 .html {
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg")
     center/cover no-repeat;
@@ -176,6 +182,13 @@
   background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg")
     center/cover no-repeat;
   background-size: 65%;
+}
+
+.tailwind {
+    background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg")
+    center/cover no-repeat;
+  background-size: 65%;
+
 }
 
 .cplusplus {
@@ -238,6 +251,12 @@
   center/cover no-repeat;
   background-size: 75%;
   filter: brightness(2)
+}
+
+.supabase {
+  background: url("https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/supabase/supabase-original.svg")
+  center/cover no-repeat;
+  background-size: 65%;     
 }
 
 .postgres {
